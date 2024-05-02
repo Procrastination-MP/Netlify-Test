@@ -1,0 +1,22 @@
+{
+  "name": "netlify-test",
+  "version": "1.0.0",
+  "description": "Test sending gpt calls",
+  "main": "sw.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Procrastination-MP/Netlify-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Procrastination-MP/Netlify-Test/issues"
+  },
+  "homepage": "https://github.com/Procrastination-MP/Netlify-Test#readme",
+  "dependencies": {
+    "openai": "^4.40.0"
+  }
+}
