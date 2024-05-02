@@ -48,7 +48,7 @@ document.getElementById('gptForm').addEventListener('submit', async function(eve
   const query = formData.get('gptInput'); // Get query from form
 
   try {
-    const response = await fetch('https://poetic-eclair-58a9e5.netlify.app/.netlify/functions/gpttest', {
+    const response = await fetch('/.netlify/functions/gpttest', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
