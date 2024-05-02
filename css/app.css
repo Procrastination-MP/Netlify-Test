@@ -11,3 +11,12 @@ body {
 .card {
   padding: 10px;
 }
+
+/* Style for the horizontal line */
+hr {
+  border: none;
+  height: 1px; /* Adjust the height as needed */
+  background-color: #fff; /* Set the color to white */
+  margin: 0 auto; /* Center the line horizontally */
+  width: 80%; /* Set the width to 80% of the screen */
+}
